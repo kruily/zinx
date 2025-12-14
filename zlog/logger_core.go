@@ -7,12 +7,12 @@
 // Current file description:
 // @Title zlogger.go
 // @Description Basic logging interface, including Debug, Fatal, etc.
-// @Author Aceld - Thu Mar 11 10:32:29 CST 2019
+// @Author kruily - Thu Mar 11 10:32:29 CST 2019
 package zlog
 
 /*
 	All methods and APIs of the log class.
-	Add By Aceld(刘丹冰) 2019-4-23
+	Add By kruily(刘丹冰) 2019-4-23
 */
 
 import (
@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aceld/zinx/zutils"
+	"github.com/kruily/zinx/zutils"
 )
 
 const (

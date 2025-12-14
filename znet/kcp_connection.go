@@ -10,13 +10,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/aceld/zinx/ziface"
+	"github.com/kruily/zinx/ziface"
 
-	"github.com/aceld/zinx/zconf"
-	"github.com/aceld/zinx/zinterceptor"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/zpack"
 	"github.com/gorilla/websocket"
+	"github.com/kruily/zinx/zconf"
+	"github.com/kruily/zinx/zinterceptor"
+	"github.com/kruily/zinx/zlog"
+	"github.com/kruily/zinx/zpack"
 	"github.com/xtaci/kcp-go"
 )
 

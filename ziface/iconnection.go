@@ -1,6 +1,6 @@
 // @Title  iconnection.go
 // @Description  Declaration of all connection-related methods
-// @Author  Aceld - Thu Mar 11 10:32:29 CST 2019
+// @Author  kruily - Thu Mar 11 10:32:29 CST 2019
 package ziface
 
 import (

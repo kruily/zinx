@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aceld/zinx/zconf"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/zconf"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/znet"
 )
 
 // 如果不使用对象池模式则可以直接传递但是产生大量的 Request 对象

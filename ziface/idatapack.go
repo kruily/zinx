@@ -1,6 +1,6 @@
 // @Title idatapack.go
 // @Description Message packing and unpacking methods
-// @Author Aceld - Thu Mar 11 10:32:29 CST 2019
+// @Author kruily - Thu Mar 11 10:32:29 CST 2019
 package ziface
 
 // IDataPack Package and unpack data.

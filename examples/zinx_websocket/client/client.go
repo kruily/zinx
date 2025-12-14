@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/aceld/zinx/examples/zinx_client/c_router"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/znet"
 	"os"
 	"os/signal"
 	"time"
+
+	"github.com/kruily/zinx/examples/zinx_client/c_router"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zlog"
+	"github.com/kruily/zinx/znet"
 )
 
 type PositionClientRouter struct {
@@ -36,7 +37,7 @@ func business(conn ziface.IConnection) {
 func DoClientConnectedBegin(conn ziface.IConnection) {
 	//设置两个连接属性，在连接创建之后
 	conn.SetProperty("Name", "刘丹冰")
-	conn.SetProperty("Home", "https://yuque.com/aceld")
+	conn.SetProperty("Home", "https://yuque.com/kruily")
 
 	go business(conn)
 }

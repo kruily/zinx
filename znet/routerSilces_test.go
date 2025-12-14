@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/aceld/zinx/zconf"
-	"github.com/aceld/zinx/ziface"
+	"github.com/kruily/zinx/zconf"
+	"github.com/kruily/zinx/ziface"
 )
 
 func A1(request ziface.IRequest) {

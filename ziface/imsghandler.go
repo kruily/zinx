@@ -1,6 +1,6 @@
 // @Title imsghandler.go
 // @Description Provides interfaces for worker startup and handling message business calls
-// @Author Aceld - Thu Mar 11 10:32:29 CST 2019
+// @Author kruily - Thu Mar 11 10:32:29 CST 2019
 package ziface
 
 // IMsgHandle Abstract layer of message management(消息管理抽象层)

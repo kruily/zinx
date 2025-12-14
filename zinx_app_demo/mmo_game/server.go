@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/aceld/zinx/zdecoder"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zinx_app_demo/mmo_game/api"
-	"github.com/aceld/zinx/zinx_app_demo/mmo_game/core"
-	"github.com/aceld/zinx/znet"
-	"github.com/aceld/zinx/zpack"
+	"github.com/kruily/zinx/zdecoder"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zinx_app_demo/mmo_game/api"
+	"github.com/kruily/zinx/zinx_app_demo/mmo_game/core"
+	"github.com/kruily/zinx/znet"
+	"github.com/kruily/zinx/zpack"
 )
 
 // OnConnectionAdd is a hook function called when a client establishes a connection

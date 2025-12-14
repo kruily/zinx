@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/znet"
 )
 
 func main() {

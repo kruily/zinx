@@ -1,6 +1,6 @@
 // @Title imessage.go
 // @Description Provides basic methods for messages
-// @Author Aceld - Thu Mar 11 10:32:29 CST 2019
+// @Author kruily - Thu Mar 11 10:32:29 CST 2019
 package ziface
 
 // IMessage Package ziface defines an abstract interface for encapsulating a request message into a message

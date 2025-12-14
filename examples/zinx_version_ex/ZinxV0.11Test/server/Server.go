@@ -1,5 +1,5 @@
 /**
-* @Author: Aceld
+* @Author: kruily
 * @Date: 2019/4/30 17:42
 * @Mail: danbing.at@gmail.com
 *  ZinxV0.11测试，测试Zinx 日志模块功能 zlog模块
@@ -7,9 +7,9 @@
 package main
 
 import (
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zlog"
+	"github.com/kruily/zinx/znet"
 )
 
 // ping test 自定义路由
@@ -52,7 +52,7 @@ func DoConnectionBegin(conn ziface.IConnection) {
 
 	//设置两个连接属性，在连接创建之后
 	zlog.Debug("Set conn Name, Home done!")
-	conn.SetProperty("Name", "Aceld")
+	conn.SetProperty("Name", "kruily")
 	conn.SetProperty("Home", "https://www.jianshu.com/u/35261429b7f1")
 
 	err := conn.SendMsg(2, []byte("DoConnection BEGIN..."))

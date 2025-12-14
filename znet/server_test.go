@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zpack"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zpack"
 )
 
 // run in terminal:

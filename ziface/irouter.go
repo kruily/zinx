@@ -1,6 +1,6 @@
 // @Title irouter.go
 // @Description Provides all interface declarations for message routing
-// @Author Aceld - Thu Mar 11 10:32:29 CST 2019
+// @Author kruily - Thu Mar 11 10:32:29 CST 2019
 package ziface
 
 // IRouter is the interface for message routing. The route is the processing

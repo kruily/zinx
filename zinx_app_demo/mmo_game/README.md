@@ -4,7 +4,7 @@ English | [简体中文](README-CN.md)
 
 ## 0. MMO Game Client Source Code
 
-https://github.com/aceld/mmo_game_client
+https://github.com/kruily/mmo_game_client
 
 ## 1.Introduction to the Application Case
 
@@ -12,7 +12,7 @@ https://github.com/aceld/mmo_game_client
 
   The game scenario is an MMO (Massively Multiplayer Online) game with a Unity3D client. The server-side demo implements essential modules of an MMO game, including AOI (Area Of Interest) based broadcasting and global chat.
 
-![mmo-game01](https://github.com/aceld/zinx/assets/7778936/b9576a95-d33f-4ffd-bf89-94a551af1977)
+![mmo-game01](https://github.com/kruily/zinx/assets/7778936/b9576a95-d33f-4ffd-bf89-94a551af1977)
 
 ## 2.Server Application Basic Protocols
 
@@ -28,17 +28,17 @@ https://github.com/aceld/mmo_game_client
 
 ## 3. Zinx Documentation
 
-[ < Zinx Wiki : English > ](https://github.com/aceld/zinx/wiki)
+[ < Zinx Wiki : English > ](https://github.com/kruily/zinx/wiki)
 
-[ < Zinx 文档 : 简体中文> ](https://www.yuque.com/aceld/tsgooa/sbvzgczh3hqz8q3l)
+[ < Zinx 文档 : 简体中文> ](https://www.yuque.com/kruily/tsgooa/sbvzgczh3hqz8q3l)
 
 ## 4.Tutorial 
 ### 4.1 Online Tutorial
 
 | platform | Entry | 
 | ---- | ---- | 
-| <img src="https://user-images.githubusercontent.com/7778936/236784004-b6d99e26-b1ab-4bc3-988e-7a46108b85fe.png" width = "100" height = "100" alt="" align=center />| [Zinx Framework tutorial-Lightweight server based on Golang](https://dev.to/aceld/1building-basic-services-with-zinx-framework-296e)| 
-|<img src="https://user-images.githubusercontent.com/7778936/236784168-6528a9b8-d37b-4b02-a37c-b9988d7508d8.jpeg" width = "100" height = "100" alt="" align=center />|[《Golang轻量级并发服务器框架zinx》](https://www.yuque.com/aceld)|
+| <img src="https://user-images.githubusercontent.com/7778936/236784004-b6d99e26-b1ab-4bc3-988e-7a46108b85fe.png" width = "100" height = "100" alt="" align=center />| [Zinx Framework tutorial-Lightweight server based on Golang](https://dev.to/kruily/1building-basic-services-with-zinx-framework-296e)| 
+|<img src="https://user-images.githubusercontent.com/7778936/236784168-6528a9b8-d37b-4b02-a37c-b9988d7508d8.jpeg" width = "100" height = "100" alt="" align=center />|[《Golang轻量级并发服务器框架zinx》](https://www.yuque.com/kruily)|
 
 
 ### 4.2 Online Tutorial Video
@@ -53,15 +53,15 @@ https://github.com/aceld/mmo_game_client
 ---
 ### 关于作者：
 
-作者：`Aceld(刘丹冰)`
+作者：`kruily(刘丹冰)`
 简书号：`IT无崖子`
 
 `mail`:
 [danbing.at@gmail.com](mailto:danbing.at@gmail.com)
 `github`:
-[https://github.com/aceld](https://github.com/aceld)
+[https://github.com/kruily](https://github.com/kruily)
 `原创书籍gitbook`:
-[http://legacy.gitbook.com/@aceld](http://legacy.gitbook.com/@aceld)
+[http://legacy.gitbook.com/@kruily](http://legacy.gitbook.com/@kruily)
 
 ### Zinx技术讨论社区
 

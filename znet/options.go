@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/aceld/zinx/ziface"
+	"github.com/kruily/zinx/ziface"
 )
 
 // Options for Server

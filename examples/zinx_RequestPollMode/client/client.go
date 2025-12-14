@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/aceld/zinx/examples/zinx_client/c_router"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/examples/zinx_client/c_router"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zlog"
+	"github.com/kruily/zinx/znet"
 )
 
 // Custom business logic of the client (客户端自定义业务)
@@ -38,8 +38,8 @@ func DoClientConnectedBegin(conn ziface.IConnection) {
 	zlog.Debug("DoConnectionBegin is Called ... ")
 
 	// Set two connection properties after the connection is created (设置两个连接属性，在连接创建之后)
-	conn.SetProperty("Name", "刘丹冰Aceld")
-	conn.SetProperty("Home", "https://yuque.com/aceld")
+	conn.SetProperty("Name", "刘丹冰kruily")
+	conn.SetProperty("Home", "https://yuque.com/kruily")
 
 	go business(conn)
 }

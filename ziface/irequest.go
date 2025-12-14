@@ -1,6 +1,6 @@
 // @Title irequest.go
 // @Description Provides all interface declarations for connection requests
-// @Author Aceld - Thu Mar 11 10:32:29 CST 2019
+// @Author kruily - Thu Mar 11 10:32:29 CST 2019
 package ziface
 
 type HandleStep int

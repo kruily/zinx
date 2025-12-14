@@ -1,6 +1,6 @@
 // @Title iserver.go
 // @Description Provides all interface declarations for the Server abstraction layer
-// @Author Aceld - Thu Mar 11 10:32:29 CST 2019
+// @Author kruily - Thu Mar 11 10:32:29 CST 2019
 package ziface
 
 import (

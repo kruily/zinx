@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/aceld/zinx/examples/zinx_decoder/router"
-	"github.com/aceld/zinx/zdecoder"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/examples/zinx_decoder/router"
+	"github.com/kruily/zinx/zdecoder"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zlog"
+	"github.com/kruily/zinx/znet"
 )
 
 func DoConnectionBegin(conn ziface.IConnection) {

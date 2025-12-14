@@ -1,7 +1,7 @@
 package ztimer
 
 /**
-* @Author: Aceld
+* @Author: kruily
 * @Date: 2019/4/30 11:57
 * @Mail: danbing.at@gmail.com
  */
@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/aceld/zinx/zlog"
+	"github.com/kruily/zinx/zlog"
 )
 
 /*

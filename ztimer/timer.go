@@ -1,7 +1,7 @@
 package ztimer
 
 /**
-* @Author: Aceld
+* @Author: kruily
 * @Date: 2019/4/30 17:42
 * @Mail: danbing.at@gmail.com
  */

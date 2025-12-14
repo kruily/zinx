@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zinx_app_demo/mmo_game/pb"
-	"github.com/aceld/zinx/znet"
-	"github.com/golang/protobuf/proto"
 	"os"
 	"os/signal"
 	"time"
+
+	"github.com/golang/protobuf/proto"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zinx_app_demo/mmo_game/pb"
+	"github.com/kruily/zinx/znet"
 )
 
 type PositionClientRouter struct {
@@ -56,8 +57,8 @@ func business(conn ziface.IConnection) {
 }
 
 func DoClientConnectedBegin(conn ziface.IConnection) {
-	conn.SetProperty("Name", "刘丹冰Aceld")
-	conn.SetProperty("Home", "https://yuque.com/aceld")
+	conn.SetProperty("Name", "刘丹冰kruily")
+	conn.SetProperty("Home", "https://yuque.com/kruily")
 
 	go business(conn)
 }

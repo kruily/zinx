@@ -46,8 +46,8 @@ import (
 	"encoding/hex"
 	"math"
 
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zlog"
 )
 
 const HEADER_SIZE = 5

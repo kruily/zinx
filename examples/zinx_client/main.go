@@ -1,5 +1,5 @@
 /**
-* @Author: Aceld
+* @Author: kruily
 * @Date: 2023/03/02
 * @Mail: danbing.at@gmail.com
 *    zinx client demo
@@ -8,13 +8,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/aceld/zinx/examples/zinx_client/c_router"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/znet"
 	"os"
 	"os/signal"
 	"time"
+
+	"github.com/kruily/zinx/examples/zinx_client/c_router"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zlog"
+	"github.com/kruily/zinx/znet"
 )
 
 // Custom business logic of the client (客户端自定义业务)
@@ -37,8 +38,8 @@ func DoClientConnectedBegin(conn ziface.IConnection) {
 	zlog.Debug("DoConnectionBegin is Called ... ")
 
 	// Set two connection properties after the connection is created (设置两个连接属性，在连接创建之后)
-	conn.SetProperty("Name", "刘丹冰Aceld")
-	conn.SetProperty("Home", "https://yuque.com/aceld")
+	conn.SetProperty("Name", "刘丹冰kruily")
+	conn.SetProperty("Home", "https://yuque.com/kruily")
 
 	go business(conn)
 }
@@ -69,7 +70,7 @@ func main() {
 
 	// Register routers for the messages received from the server
 	// (注册收到服务器消息业务路由)
-	client.AddRouter(2, &c_router.PingRouter{})
+	client.AddRouter(1, &c_router.PingRouter{})
 	client.AddRouter(3, &c_router.HelloRouter{})
 
 	// Start the client

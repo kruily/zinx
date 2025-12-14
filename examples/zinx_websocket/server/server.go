@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/aceld/zinx/examples/zinx_server/s_router"
-	"github.com/aceld/zinx/zconf"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/examples/zinx_server/s_router"
+	"github.com/kruily/zinx/zconf"
+	"github.com/kruily/zinx/znet"
 )
 
 func main() {

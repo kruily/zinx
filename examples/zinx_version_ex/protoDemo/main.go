@@ -3,8 +3,9 @@ package main
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/aceld/zinx/examples/zinx_version_ex/protoDemo/pb"
+
 	"github.com/golang/protobuf/proto"
+	"github.com/kruily/zinx/examples/zinx_version_ex/protoDemo/pb"
 )
 
 func main() {

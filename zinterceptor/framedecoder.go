@@ -10,8 +10,9 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"github.com/aceld/zinx/ziface"
 	"math"
+
+	"github.com/kruily/zinx/ziface"
 )
 
 // FrameDecoder
@@ -171,7 +172,7 @@ import (
 // | 0xCA | 0x0010 | 0xFE | "HELLO, WORLD" |      | 0xFE | "HELLO, WORLD" |
 // +------+--------+------+----------------+      +------+----------------+
 
-// << 中文含义 By Aceld >>
+// << 中文含义 By kruily >>
 //
 // FrameDecoder
 // 一个解码器，根据消息中长度字段的值动态地拆分接收到的二进制数据帧,

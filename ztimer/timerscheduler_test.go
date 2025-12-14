@@ -1,7 +1,7 @@
 package ztimer
 
 /**
-* @Author: Aceld(刘丹冰)
+* @Author: kruily(刘丹冰)
 * @Date: 2019/5/9 10:14
 * @Mail: danbing.at@gmail.com
 *
@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aceld/zinx/zlog"
+	"github.com/kruily/zinx/zlog"
 )
 
 // 触发函数

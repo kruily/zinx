@@ -4,16 +4,16 @@ English | [简体中文](README-CN.md)
 [![License](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
 [![Discord](https://img.shields.io/badge/zinx-Discord-blue.svg)](https://discord.gg/xQ8Xxfyfcz)
 [![Gitter](https://img.shields.io/badge/zinx-Gitter-green.svg)](https://gitter.im/zinx_go/community) 
-[![zinx tutorial](https://img.shields.io/badge/ZinxTutorial-YuQue-red.svg)](https://www.yuque.com/aceld/npyr8s/bgftov) 
-[![Original Book of Zinx](https://img.shields.io/badge/OriginalBook-YuQue-black.svg)](https://www.yuque.com/aceld)
+[![zinx tutorial](https://img.shields.io/badge/ZinxTutorial-YuQue-red.svg)](https://www.yuque.com/kruily/npyr8s/bgftov) 
+[![Original Book of Zinx](https://img.shields.io/badge/OriginalBook-YuQue-black.svg)](https://www.yuque.com/kruily)
 
 Zinx is a lightweight concurrent server framework based on Golang.
 
 ##  Document 
 
-[ < Zinx Wiki : English > ](https://github.com/aceld/zinx/wiki)
+[ < Zinx Wiki : English > ](https://github.com/kruily/zinx/wiki)
 
-[ < Zinx 文档 : 简体中文> ](https://www.yuque.com/aceld/tsgooa/sbvzgczh3hqz8q3l)
+[ < Zinx 文档 : 简体中文> ](https://www.yuque.com/kruily/tsgooa/sbvzgczh3hqz8q3l)
 
 
 > **Note**: 
@@ -24,9 +24,9 @@ Zinx is a lightweight concurrent server framework based on Golang.
 ## Source of Zinx
 | platform | Entry | 
 | ---- | ---- | 
-|Github| https://github.com/aceld/zinx |
-|Gitcode|https://gitcode.com/aceld/zinx|
-|Gitee|https://gitee.com/Aceld/zinx|
+|Github| https://github.com/kruily/zinx |
+|Gitcode|https://gitcode.com/kruily/zinx|
+|Gitee|https://gitee.com/kruily/zinx|
 
 ### Website
 http://zinx.me
@@ -36,8 +36,8 @@ http://zinx.me
 
 | platform | Entry | 
 | ---- | ---- | 
-| <img src="https://user-images.githubusercontent.com/7778936/236784004-b6d99e26-b1ab-4bc3-988e-7a46108b85fe.png" width = "100" height = "100" alt="" align=center />| [Zinx Framework tutorial-Lightweight server based on Golang](https://dev.to/aceld/1building-basic-services-with-zinx-framework-296e)| 
-|<img src="https://user-images.githubusercontent.com/7778936/236784168-6528a9b8-d37b-4b02-a37c-b9988d7508d8.jpeg" width = "100" height = "100" alt="" align=center />|[《Golang轻量级并发服务器框架zinx》](https://www.yuque.com/aceld)|
+| <img src="https://user-images.githubusercontent.com/7778936/236784004-b6d99e26-b1ab-4bc3-988e-7a46108b85fe.png" width = "100" height = "100" alt="" align=center />| [Zinx Framework tutorial-Lightweight server based on Golang](https://dev.to/kruily/1building-basic-services-with-zinx-framework-296e)| 
+|<img src="https://user-images.githubusercontent.com/7778936/236784168-6528a9b8-d37b-4b02-a37c-b9988d7508d8.jpeg" width = "100" height = "100" alt="" align=center />|[《Golang轻量级并发服务器框架zinx》](https://www.yuque.com/kruily)|
 
 
 ## Online Tutorial Video
@@ -84,7 +84,7 @@ Of course, we hope that more people will join Zinx and provide us with valuable 
 DownLoad zinx Source
 
 ```bash
-$go get github.com/aceld/zinx
+$go get github.com/kruily/zinx
 ```
 
 > note: Golang Version 1.17+
@@ -95,8 +95,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/znet"
 )
 
 // PingRouter MsgId=1 
@@ -139,8 +139,8 @@ $ go run server.go
  ▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀  ▀▀    ▀▀  ▀▀▀  ▀▀▀ 
                                         
 ┌──────────────────────────────────────────────────────┐
-│ [Github] https://github.com/aceld                    │
-│ [tutorial] https://www.yuque.com/aceld/npyr8s/bgftov │
+│ [Github] https://github.com/kruily                    │
+│ [tutorial] https://www.yuque.com/kruily/npyr8s/bgftov │
 └──────────────────────────────────────────────────────┘
 [Zinx] Version: V1.0, MaxConn: 12000, MaxPacketSize: 4096
 ===== Zinx Global Config =====
@@ -153,8 +153,8 @@ MaxConn: 12000
 WorkerPoolSize: 10
 MaxWorkerTaskLen: 1024
 MaxMsgChanLen: 1024
-ConfFilePath: /Users/Aceld/go/src/zinx-usage/quick_start/conf/zinx.json
-LogDir: /Users/Aceld/go/src/zinx-usage/quick_start/log
+ConfFilePath: /Users/kruily/go/src/zinx-usage/quick_start/conf/zinx.json
+LogDir: /Users/kruily/go/src/zinx-usage/quick_start/log
 LogFile: 
 LogIsolationLevel: 0
 HeartbeatMax: 10
@@ -184,8 +184,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/znet"
 	"time"
 )
 
@@ -282,7 +282,7 @@ recv from client : msgId= 1 , data= Ping...Ping...Ping...[FromClient]
 
 | **Zinx**                                                       | **Authors**  |
 |----------------------------------------------------------------| ----  | 
-| [zinx](https://github.com/aceld/zinx)                          |刘丹冰([@aceld](https://github.com/aceld)) 张超([@zhngcho](https://github.com/zhngcho)) 高智辉Roger([@adsian](https://github.com/adsian)) 胡贵建([@huguijian](https://github.com/huguijian)) 张继瑀([@kstwoak](https://github.com/kstwoak)) 夏小力([@xxl6097](https://github.com/xxl6097)) 李志成([@clukboy](https://github.com/clukboy)）姚承政([@hcraM41](https://github.com/hcraM41)）李国杰([@LI-GUOJIE](https://github.com/LI-GUOJIE)）余喆宁([@YanHeDoki](https://github.com/YanHeDoki)）|
+| [zinx](https://github.com/kruily/zinx)                          |刘丹冰([@kruily](https://github.com/kruily)) 张超([@zhngcho](https://github.com/zhngcho)) 高智辉Roger([@adsian](https://github.com/adsian)) 胡贵建([@huguijian](https://github.com/huguijian)) 张继瑀([@kstwoak](https://github.com/kstwoak)) 夏小力([@xxl6097](https://github.com/xxl6097)) 李志成([@clukboy](https://github.com/clukboy)）姚承政([@hcraM41](https://github.com/hcraM41)）李国杰([@LI-GUOJIE](https://github.com/LI-GUOJIE)）余喆宁([@YanHeDoki](https://github.com/YanHeDoki)）|
 | [moke-kit(Microservices)](https://github.com/GStones/moke-kit) |GStones([@GStones](https://github.com/GStones))|
 | [zinx(C++)](https://github.com/marklion/zinx)                  |刘洋([@marklion](https://github.com/marklion))|
 | [zinx(Lua)](https://github.com/huqitt/zinx-lua)                |胡琪([@huqitt](https://github.com/huqitt))|
@@ -292,8 +292,8 @@ recv from client : msgId= 1 , data= Ping...Ping...Ping...[FromClient]
 
 Thanks to all the developers who contributed to Zinx!
 
-<a href="https://github.com/aceld/zinx/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=aceld/zinx" />
+<a href="https://github.com/kruily/zinx/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kruily/zinx" />
 </a>    
 
 
@@ -301,16 +301,16 @@ Thanks to all the developers who contributed to Zinx!
 
 ### About the author
 
-`name`：`Aceld(刘丹冰)`
+`name`：`kruily(刘丹冰)`
 
 `mail`:
 [danbing.at@gmail.com](mailto:danbing.at@gmail.com)
 
 `github`:
-[https://github.com/aceld](https://github.com/aceld)
+[https://github.com/kruily](https://github.com/kruily)
 
 `original work`:
-[https://www.yuque.com/aceld](https://www.yuque.com/aceld)
+[https://www.yuque.com/kruily](https://www.yuque.com/kruily)
 
 ### Join the Zinx community 
 
@@ -319,4 +319,4 @@ Thanks to all the developers who contributed to Zinx!
 | <img src="https://user-images.githubusercontent.com/7778936/236775008-6bd488e3-249a-4d43-8885-7e3889e11e2d.png" width = "100" height = "100" alt="" align=center />| https://discord.gg/xQ8Xxfyfcz| 
 | <img src="https://user-images.githubusercontent.com/7778936/236775137-5381f8a6-f534-49c4-8628-e52bf245c3bc.jpeg" width = "100" height = "100" alt="" align=center />  | 加微信: `ace_ld`  或扫二维码，备注`zinx`即可。</br><img src="https://user-images.githubusercontent.com/7778936/236781258-2f0371bd-5797-49e8-a74c-680e9f15843d.png" width = "150" height = "150" alt="" align=center /> |
 |<img src="https://user-images.githubusercontent.com/7778936/236778547-9cdadfb6-0f62-48ac-851a-b940389038d0.jpeg" width = "100" height = "100" alt="" align=center />|<img src="https://s1.ax1x.com/2020/07/07/UFyUdx.th.jpg" height = "150"  alt="" align=center /> **WeChat Public Account** |
-|<img src="https://user-images.githubusercontent.com/7778936/236779000-70f16c8f-0eec-4b5f-9faa-e1d5229a43e0.png" width = "100" height = "100" alt="" align=center />|<img src="https://github.com/aceld/zinx/assets/7778936/461b409f-6337-48a8-826b-a7a746aaee31" width = "150" height = "150" alt="" align=center /> **QQ Group** |
+|<img src="https://user-images.githubusercontent.com/7778936/236779000-70f16c8f-0eec-4b5f-9faa-e1d5229a43e0.png" width = "100" height = "100" alt="" align=center />|<img src="https://github.com/kruily/zinx/assets/7778936/461b409f-6337-48a8-826b-a7a746aaee31" width = "150" height = "150" alt="" align=center /> **QQ Group** |

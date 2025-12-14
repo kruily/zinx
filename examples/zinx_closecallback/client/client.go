@@ -6,9 +6,9 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/aceld/zinx/examples/zinx_closecallback/router"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/examples/zinx_closecallback/router"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/znet"
 )
 
 // business handles the main business logic for sending ping messages

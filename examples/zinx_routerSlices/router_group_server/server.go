@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/aceld/zinx/zconf"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/zconf"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/znet"
 )
 
 func Test1(request ziface.IRequest) {

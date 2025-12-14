@@ -10,11 +10,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/aceld/zinx/zdecoder"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/zpack"
 	"github.com/gorilla/websocket"
+	"github.com/kruily/zinx/zconf"
+	"github.com/kruily/zinx/zdecoder"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zlog"
+	"github.com/kruily/zinx/zpack"
 )
 
 type Client struct {
@@ -62,7 +63,7 @@ type Client struct {
 }
 
 func NewClient(ip string, port int, opts ...ClientOption) ziface.IClient {
-
+	zconf.ClientInit()
 	c := &Client{
 		// Default name, can be modified using the WithNameClient Option
 		// (默认名称，可以使用WithNameClient的Option修改)
@@ -86,7 +87,7 @@ func NewClient(ip string, port int, opts ...ClientOption) ziface.IClient {
 }
 
 func NewWsClient(ip string, port int, opts ...ClientOption) ziface.IClient {
-
+	zconf.ClientInit()
 	c := &Client{
 		// Default name, can be modified using the WithNameClient Option
 		// (默认名称，可以使用WithNameClient的Option修改)

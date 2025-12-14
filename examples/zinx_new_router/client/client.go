@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zpack"
 	"io"
 	"net"
 	"time"
+
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zpack"
 )
 
 // 模拟客户端

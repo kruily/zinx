@@ -11,19 +11,20 @@ import (
 	"os/signal"
 	"sync/atomic"
 	"syscall"
+	"testing"
 	"time"
 
 	"github.com/gorilla/websocket"
 
-	"github.com/aceld/zinx/logo"
-	"github.com/aceld/zinx/zconf"
-	"github.com/aceld/zinx/zdecoder"
-	"github.com/aceld/zinx/zlog"
+	"github.com/kruily/zinx/logo"
+	"github.com/kruily/zinx/zconf"
+	"github.com/kruily/zinx/zdecoder"
+	"github.com/kruily/zinx/zlog"
 
 	"github.com/xtaci/kcp-go"
 
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zpack"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zpack"
 )
 
 // Server interface implementation, defines a Server service class
@@ -127,6 +128,11 @@ type KcpConfig struct {
 // newServerWithConfig creates a server handle based on config
 // (根据config创建一个服务器句柄)
 func newServerWithConfig(config *zconf.Config, ipVersion string, opts ...Option) ziface.IServer {
+	testing.Init()
+	// Set the global configuration object
+	// (设置全局配置对象)
+	zconf.SetGlobalObject(config)
+
 	logo.PrintLogo()
 
 	s := &Server{
@@ -179,8 +185,8 @@ func newServerWithConfig(config *zconf.Config, ipVersion string, opts ...Option)
 
 // NewServer creates a server handle
 // (创建一个服务器句柄)
-func NewServer(opts ...Option) ziface.IServer {
-	return newServerWithConfig(zconf.GlobalObject, "tcp", opts...)
+func NewServer(config *zconf.Config, opts ...Option) ziface.IServer {
+	return newServerWithConfig(config, "tcp", opts...)
 }
 
 // NewUserConfServer creates a server handle using user-defined configuration

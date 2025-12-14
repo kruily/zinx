@@ -1,5 +1,5 @@
 /**
-* @Author: Aceld
+* @Author: kruily
 * @Date: 2023/03/02
 * @Mail: danbing.at@gmail.com
 *    zinx client demo
@@ -8,10 +8,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/aceld/zinx/zpack"
 	"io"
 	"net"
 	"time"
+
+	"github.com/kruily/zinx/zpack"
 )
 
 func main() {

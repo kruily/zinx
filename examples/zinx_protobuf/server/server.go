@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zinx_app_demo/mmo_game/pb"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/znet"
 	"github.com/golang/protobuf/proto"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zinx_app_demo/mmo_game/pb"
+	"github.com/kruily/zinx/zlog"
+	"github.com/kruily/zinx/znet"
 )
 
 type PositionServerRouter struct {

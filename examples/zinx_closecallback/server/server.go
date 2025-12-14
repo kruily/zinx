@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aceld/zinx/examples/zinx_closecallback/router"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/examples/zinx_closecallback/router"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/znet"
 )
 
 // DoConnectionBegin is the callback function when connection starts

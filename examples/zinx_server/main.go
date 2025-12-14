@@ -1,5 +1,5 @@
 /**
-* @Author: Aceld
+* @Author: kruily
 * @Date: 2020/12/24 00:24
 * @Mail: danbing.at@gmail.com
 *    zinx server demo
@@ -7,10 +7,10 @@
 package main
 
 import (
-	"github.com/aceld/zinx/examples/zinx_server/s_router"
-	"github.com/aceld/zinx/ziface"
-	"github.com/aceld/zinx/zlog"
-	"github.com/aceld/zinx/znet"
+	"github.com/kruily/zinx/examples/zinx_server/s_router"
+	"github.com/kruily/zinx/ziface"
+	"github.com/kruily/zinx/zlog"
+	"github.com/kruily/zinx/znet"
 )
 
 // DoConnectionBegin Executed when creating a connection.
@@ -19,8 +19,8 @@ func DoConnectionBegin(conn ziface.IConnection) {
 	zlog.Ins().InfoF("DoConnectionBegin is Called ...")
 
 	//设置两个连接属性，在连接创建之后
-	conn.SetProperty("Name", "Aceld")
-	conn.SetProperty("Home", "https://www.kancloud.cn/@aceld")
+	conn.SetProperty("Name", "kruily")
+	conn.SetProperty("Home", "https://www.kancloud.cn/@kruily")
 
 	err := conn.SendMsg(2, []byte("DoConnection BEGIN..."))
 	if err != nil {
